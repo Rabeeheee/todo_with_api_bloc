@@ -7,9 +7,9 @@ class Todo {
 
   factory Todo.fromJson(Map<String, dynamic> json) {
     return Todo(
-      id: json['_id'] ?? 0, // Default to 0 or handle as appropriate
-      title: json['title'] ?? 'No title', // Default message
-      description: json['description'] ?? 'No description', // Default message
+      id: json['_id'] ?? 0,
+      title: json['title'] ?? 'No title', 
+      description: json['description'] ?? 'No description', 
     );
   }
 }
